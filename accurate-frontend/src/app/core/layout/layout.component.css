@@ -1,0 +1,48 @@
+    .bars {
+        height: 100%;
+        width: 10%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        animation: bar-animation 4s;
+        animation-timing-function: ease-in-out, linear;
+        animation-direction: alternate, normal;
+    }
+    
+    @keyframes bar-animation {
+        0% {
+            width: 0%;
+        }
+        50% {
+            width: 15%;
+        }
+        100% {
+            width: 10%;
+        }
+    }
+    
+    .contact-us-bar {
+        height: 50%;
+        background: #42D7E4;
+        text-align: center;
+    }
+    
+    .about-us-bar>div,
+    .contact-us-bar>div {
+        transform: rotate(90deg);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .about-us-bar>div>a {
+        color: white!important;
+    }
+    
+    .about-us-bar {
+        height: 50%;
+        background: #034255;
+        /* background: radial-gradient(circle farthest-corner at 0% 0%, #65DED0, #034255); */
+    }

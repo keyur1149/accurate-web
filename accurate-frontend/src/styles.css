@@ -1,0 +1,28 @@
+        /* You can add global styles to this file, and also import other style files */
+        
+         :root,
+        [data-bs-theme=light] {
+            --bs-border-radius: 1.375rem;
+            --bs-primary-rgb: 66, 215, 228;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .btn-primary {
+            --bs-btn-color: #fff;
+            --bs-btn-bg: #042226;
+            --bs-btn-border-color: #042226;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #042226;
+            --bs-btn-hover-border-color: #042226;
+            --bs-btn-focus-shadow-rgb: 49, 132, 253;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #042226;
+            --bs-btn-active-border-color: #042226;
+            --bs-btn-disabled-color: #fff;
+            --bs-btn-disabled-bg: #042226;
+            --bs-btn-disabled-border-color: #042226;
+        }
