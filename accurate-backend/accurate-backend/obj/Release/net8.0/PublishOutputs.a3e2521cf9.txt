@@ -1,0 +1,11 @@
+D:\Accurate Hardware\accurate-backend\accurate-backend\obj\Release\net8.0\PubTmp\Out\accurate-backend.exe
+D:\Accurate Hardware\accurate-backend\accurate-backend\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\Accurate Hardware\accurate-backend\accurate-backend\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\Accurate Hardware\accurate-backend\accurate-backend\obj\Release\net8.0\PubTmp\Out\accurate-backend.dll
+D:\Accurate Hardware\accurate-backend\accurate-backend\obj\Release\net8.0\PubTmp\Out\accurate-backend.deps.json
+D:\Accurate Hardware\accurate-backend\accurate-backend\obj\Release\net8.0\PubTmp\Out\accurate-backend.runtimeconfig.json
+D:\Accurate Hardware\accurate-backend\accurate-backend\obj\Release\net8.0\PubTmp\Out\accurate-backend.pdb
+D:\Accurate Hardware\accurate-backend\accurate-backend\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Accurate Hardware\accurate-backend\accurate-backend\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Accurate Hardware\accurate-backend\accurate-backend\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Accurate Hardware\accurate-backend\accurate-backend\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

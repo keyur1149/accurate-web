@@ -1,0 +1,17 @@
+D:\Accurate Hardware\accurate-backend\accurate-services\bin\Debug\net8.0\accurate-services.deps.json
+D:\Accurate Hardware\accurate-backend\accurate-services\bin\Debug\net8.0\accurate-services.dll
+D:\Accurate Hardware\accurate-backend\accurate-services\bin\Debug\net8.0\accurate-services.pdb
+D:\Accurate Hardware\accurate-backend\accurate-services\bin\Debug\net8.0\accurate-data-access.dll
+D:\Accurate Hardware\accurate-backend\accurate-services\bin\Debug\net8.0\accurate_repositry.dll
+D:\Accurate Hardware\accurate-backend\accurate-services\bin\Debug\net8.0\accurate_repositry.pdb
+D:\Accurate Hardware\accurate-backend\accurate-services\bin\Debug\net8.0\accurate-data-access.pdb
+D:\Accurate Hardware\accurate-backend\accurate-services\obj\Debug\net8.0\accurate-services.csproj.AssemblyReference.cache
+D:\Accurate Hardware\accurate-backend\accurate-services\obj\Debug\net8.0\accurate-services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Accurate Hardware\accurate-backend\accurate-services\obj\Debug\net8.0\accurate-services.AssemblyInfoInputs.cache
+D:\Accurate Hardware\accurate-backend\accurate-services\obj\Debug\net8.0\accurate-services.AssemblyInfo.cs
+D:\Accurate Hardware\accurate-backend\accurate-services\obj\Debug\net8.0\accurate-services.csproj.CoreCompileInputs.cache
+D:\Accurate Hardware\accurate-backend\accurate-services\obj\Debug\net8.0\accurate.AC1A30C4.Up2Date
+D:\Accurate Hardware\accurate-backend\accurate-services\obj\Debug\net8.0\accurate-services.dll
+D:\Accurate Hardware\accurate-backend\accurate-services\obj\Debug\net8.0\refint\accurate-services.dll
+D:\Accurate Hardware\accurate-backend\accurate-services\obj\Debug\net8.0\accurate-services.pdb
+D:\Accurate Hardware\accurate-backend\accurate-services\obj\Debug\net8.0\ref\accurate-services.dll
