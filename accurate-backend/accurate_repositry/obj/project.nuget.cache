@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sw0oxgUPEQiaUi69cfJIeGLqfIT7/N8RJjxWePYsGtp/eDqL76BRv4yV8lc60CnV5zfIyLzrEBDC7BM5kJwxEA==",
+  "dgSpecHash": "eeJiFkUXedDe3FeLFVIYJOhtjSmnpm11cZpEbxj5+SDjP6I7szzsr8GL6DsuTlS3RuszS8btFApKVKBE5u9S3w==",
   "success": true,
-  "projectFilePath": "D:\\Accurate Hardware\\accurate-backend\\accurate_repositry\\accurate_repositry.csproj",
+  "projectFilePath": "D:\\Accurate Hardware\\Accurate-web\\accurate-web\\accurate-backend\\accurate_repositry\\accurate_repositry.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.7\\microsoft.entityframeworkcore.8.0.7.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.7\\microsoft.entityframeworkcore.abstractions.8.0.7.nupkg.sha512",

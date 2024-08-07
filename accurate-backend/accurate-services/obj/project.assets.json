@@ -757,11 +757,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Accurate Hardware\\accurate-backend\\accurate-services\\accurate-services.csproj",
+      "projectUniqueName": "D:\\Accurate Hardware\\Accurate-web\\accurate-web\\accurate-backend\\accurate-services\\accurate-services.csproj",
       "projectName": "accurate-services",
-      "projectPath": "D:\\Accurate Hardware\\accurate-backend\\accurate-services\\accurate-services.csproj",
+      "projectPath": "D:\\Accurate Hardware\\Accurate-web\\accurate-web\\accurate-backend\\accurate-services\\accurate-services.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\Accurate Hardware\\accurate-backend\\accurate-services\\obj\\",
+      "outputPath": "D:\\Accurate Hardware\\Accurate-web\\accurate-web\\accurate-backend\\accurate-services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -778,8 +778,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Accurate Hardware\\accurate-backend\\accurate_repositry\\accurate_repositry.csproj": {
-              "projectPath": "D:\\Accurate Hardware\\accurate-backend\\accurate_repositry\\accurate_repositry.csproj"
+            "D:\\Accurate Hardware\\Accurate-web\\accurate-web\\accurate-backend\\accurate_repositry\\accurate_repositry.csproj": {
+              "projectPath": "D:\\Accurate Hardware\\Accurate-web\\accurate-web\\accurate-backend\\accurate_repositry\\accurate_repositry.csproj"
             }
           }
         }

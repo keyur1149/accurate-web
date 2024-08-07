@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Accurate Hardware\\accurate-backend\\accurate-data-access\\accurate-data-access.csproj": {}
+    "D:\\Accurate Hardware\\Accurate-web\\accurate-web\\accurate-backend\\accurate-data-access\\accurate-data-access.csproj": {}
   },
   "projects": {
-    "D:\\Accurate Hardware\\accurate-backend\\accurate-data-access\\accurate-data-access.csproj": {
+    "D:\\Accurate Hardware\\Accurate-web\\accurate-web\\accurate-backend\\accurate-data-access\\accurate-data-access.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Accurate Hardware\\accurate-backend\\accurate-data-access\\accurate-data-access.csproj",
+        "projectUniqueName": "D:\\Accurate Hardware\\Accurate-web\\accurate-web\\accurate-backend\\accurate-data-access\\accurate-data-access.csproj",
         "projectName": "accurate-data-access",
-        "projectPath": "D:\\Accurate Hardware\\accurate-backend\\accurate-data-access\\accurate-data-access.csproj",
+        "projectPath": "D:\\Accurate Hardware\\Accurate-web\\accurate-web\\accurate-backend\\accurate-data-access\\accurate-data-access.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\Accurate Hardware\\accurate-backend\\accurate-data-access\\obj\\",
+        "outputPath": "D:\\Accurate Hardware\\Accurate-web\\accurate-web\\accurate-backend\\accurate-data-access\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

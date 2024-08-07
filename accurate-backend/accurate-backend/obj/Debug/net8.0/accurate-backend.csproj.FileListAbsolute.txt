@@ -109,3 +109,14 @@ D:\Accurate Hardware\accurate-backend\accurate-backend\bin\Debug\net8.0\ru\Micro
 D:\Accurate Hardware\accurate-backend\accurate-backend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Accurate Hardware\accurate-backend\accurate-backend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Accurate Hardware\accurate-backend\accurate-backend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate-backend\obj\Debug\net8.0\accurate-backend.csproj.AssemblyReference.cache
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate-backend\obj\Debug\net8.0\accurate-backend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate-backend\obj\Debug\net8.0\accurate-backend.AssemblyInfoInputs.cache
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate-backend\obj\Debug\net8.0\accurate-backend.AssemblyInfo.cs
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate-backend\obj\Debug\net8.0\accurate-backend.csproj.CoreCompileInputs.cache
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate-backend\obj\Debug\net8.0\accurate-backend.MvcApplicationPartsAssemblyInfo.cs
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate-backend\obj\Debug\net8.0\accurate-backend.MvcApplicationPartsAssemblyInfo.cache
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate-backend\obj\Debug\net8.0\accurate-backend.sourcelink.json
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate-backend\obj\Debug\net8.0\accurate-backend.dll
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate-backend\obj\Debug\net8.0\refint\accurate-backend.dll
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate-backend\obj\Debug\net8.0\accurate-backend.pdb
