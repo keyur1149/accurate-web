@@ -1,0 +1,16 @@
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\bin\Debug\net8.0\accurate_repositry.deps.json
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\bin\Debug\net8.0\accurate_repositry.dll
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\bin\Debug\net8.0\accurate_repositry.pdb
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\bin\Debug\net8.0\accurate-data-access.dll
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\bin\Debug\net8.0\accurate-data-access.pdb
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\obj\Debug\net8.0\accurate_repositry.csproj.AssemblyReference.cache
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\obj\Debug\net8.0\accurate_repositry.GeneratedMSBuildEditorConfig.editorconfig
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\obj\Debug\net8.0\accurate_repositry.AssemblyInfoInputs.cache
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\obj\Debug\net8.0\accurate_repositry.AssemblyInfo.cs
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\obj\Debug\net8.0\accurate_repositry.csproj.CoreCompileInputs.cache
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\obj\Debug\net8.0\accurate_repositry.sourcelink.json
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\obj\Debug\net8.0\accurate.A8C6EAD9.Up2Date
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\obj\Debug\net8.0\accurate_repositry.dll
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\obj\Debug\net8.0\refint\accurate_repositry.dll
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\obj\Debug\net8.0\accurate_repositry.pdb
+D:\Accurate Hardware\Accurate-web\accurate-web\accurate-backend\accurate_repositry\obj\Debug\net8.0\ref\accurate_repositry.dll
