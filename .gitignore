@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.vsidx
+/accurate-backend/accurate-backend/bin/Debug/net8.0/accurate-backend.dll
+*.json
