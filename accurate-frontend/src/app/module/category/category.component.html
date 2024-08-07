@@ -1,0 +1,14 @@
+<div class="m-5">
+  <div class="px-5 d-flex justify-content-between">
+    <h3>Categories</h3>
+    <div>
+      <button class="btn" type="button">See All</button>
+    </div>
+  </div>
+  <div class="categories-containers">
+    <app-category-card
+      *ngFor="let category of categories"
+      [category]="category"
+    />
+  </div>
+</div>

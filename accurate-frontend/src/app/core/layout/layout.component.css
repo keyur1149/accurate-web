@@ -38,11 +38,26 @@
     }
     
     .about-us-bar>div>a {
-        color: white!important;
+        color: white !important;
     }
     
     .about-us-bar {
         height: 50%;
         background: #034255;
         /* background: radial-gradient(circle farthest-corner at 0% 0%, #65DED0, #034255); */
+    }
+    
+    .bg-circle {
+        width: 1000px;
+        height: 1000px;
+        background-color: #4dd7fa4f;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        position: fixed;
+        top: -350px;
+        right: -350px;
+        z-index: -1;
     }

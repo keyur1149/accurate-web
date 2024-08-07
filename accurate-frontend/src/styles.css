@@ -26,3 +26,5 @@
             --bs-btn-disabled-bg: #042226;
             --bs-btn-disabled-border-color: #042226;
         }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
