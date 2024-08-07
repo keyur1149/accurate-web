@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("accurate-services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71e9d17e286305ef5bc822cee18074068c260ee0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c844555db935966c4a6f5497a42343d188024f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("accurate-services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("accurate-services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
