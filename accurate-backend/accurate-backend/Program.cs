@@ -1,5 +1,7 @@
 using accurate_data_access;
+using accurate_data_access.Entities;
 using Microsoft.EntityFrameworkCore;
+using accurate_services.services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.RegisterRepositoryServices();  
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
@@ -29,8 +32,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseSwagger();
-app.UseSwaggerUI();
 
 app.UseCors("AllowSpecificOrigin");
 
