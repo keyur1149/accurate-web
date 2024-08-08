@@ -1,7 +1,6 @@
 ﻿using accurate_data_access.DTO;
 using accurate_data_access.Entities;
 using accurate_services.services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace accurate_backend.Controllers

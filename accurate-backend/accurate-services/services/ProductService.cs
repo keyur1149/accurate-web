@@ -1,12 +1,7 @@
 ﻿using accurate_data_access.DTO;
 using accurate_data_access.Entities;
 using accurate_data_access.interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace accurate_services.services
 {

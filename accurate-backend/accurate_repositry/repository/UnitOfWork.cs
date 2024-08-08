@@ -1,11 +1,5 @@
 ﻿using accurate_data_access.Entities;
 using accurate_data_access.interfaces;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace accurate_repositry.repository
 {
@@ -40,6 +34,10 @@ namespace accurate_repositry.repository
                 }
                 return _categoryRepository;
             }
+        }
+        public async Task SaveChangesAsync()
+        {
+            await _context.SaveChangesAsync();
         }
     }
 }

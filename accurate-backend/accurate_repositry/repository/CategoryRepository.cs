@@ -1,12 +1,7 @@
 ﻿using accurate_data_access.Entities;
 using accurate_data_access.interfaces;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace accurate_repositry.repository
 {
@@ -17,7 +12,10 @@ namespace accurate_repositry.repository
         {
             _context = context;
         }
-
+        public async Task<CategoryTbl?> GetFirstOrDefault(Expression<Func<CategoryTbl, bool>> filter)
+        {
+            return await _context.CategoryTbls.FirstOrDefaultAsync(filter);
+        }
         public async Task AddAsync(CategoryTbl category)
         {
             await _context.CategoryTbls.AddAsync(category);
