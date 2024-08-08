@@ -6,10 +6,8 @@
 accurate-backend/accurate-backend/bin/Debug/net8.0
 *.json
 /accurate-backend/accurate-backend/.vs
-/acurate-frontend/.angular
-accurate-backend/accurate-backend/obj/Debug/net8.0
-accurate-backend/accurate-data-access/obj/Debug/net8.0
-accurate-backend/accurate-services/obj/Debug/net8.0
-accurate-backend/accurate_repositry/obj/Debug/net8.0
-
-
+*.dll
+*.pdb
+*.exe
+*.csproj.AssemblyReference.cache
+*.AssemblyInfo.cs
