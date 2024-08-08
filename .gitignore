@@ -4,4 +4,6 @@
 
 *.vsidx
 /accurate-backend/accurate-backend/bin/Debug/net8.0/accurate-backend.dll
+/accurate-backend/obj
 *.json
+/accurate-backend/.vs
