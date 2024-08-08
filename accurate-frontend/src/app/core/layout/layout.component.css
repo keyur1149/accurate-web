@@ -61,3 +61,21 @@
         right: -350px;
         z-index: -1;
     }
+    
+    .card-icon {
+        position: fixed;
+        height: 60px;
+        width: 60px;
+        right: 5%;
+        bottom: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: #4dd7fa4f;
+        border: 2px solid black;
+    }
+    
+    .card-icon>mat-icon {
+        font-size: 30px;
+    }
