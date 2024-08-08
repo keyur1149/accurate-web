@@ -7,3 +7,4 @@
 /accurate-backend/obj
 *.json
 /accurate-backend/accurate-backend/.vs
+/acurate-frontend/.angular
