@@ -16,3 +16,6 @@ accurate-backend/accurate-backend/obj/Debug/net8.0/*.AssemblyInfo.cs
 *.AssemblyInfoInputs.caches
 accurate-frontend/.angular/cache/18.1.3/accurate-frontend/.tsbuildinfo
 
+accurate-backend/accurate-backend/bin/Debug/net8.0/accurate_repositry.dll
+accurate-backend/accurate-backend/bin/Debug/net8.0/accurate_repositry.pdb
+accurate-backend/accurate-backend/bin/Debug/net8.0/accurate-backend.exe
