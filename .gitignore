@@ -11,3 +11,4 @@ accurate-backend/accurate-backend/bin/Debug/net8.0
 *.exe
 *.csproj.AssemblyReference.cache
 *.AssemblyInfo.cs
+accurate-backend/.vs/accurate-backend/v17/.suo
