@@ -1,6 +1,7 @@
 ﻿using accurate_data_access.DTO;
 using accurate_data_access.Entities;
 using accurate_data_access.interfaces;
+using Microsoft.EntityFrameworkCore;
 using System.Net;
 
 namespace accurate_services.services
@@ -13,13 +14,13 @@ namespace accurate_services.services
             _unitOfWork = unitOfWork;
         }
 
-        public APIResponse<IEnumerable<CategoryTbl>> FetchAllCategories()
+        public async Task<APIResponse<List<CategoryTbl>>> FetchAllCategories()
         {
-            APIResponse<IEnumerable<CategoryTbl>> response = new APIResponse<IEnumerable<CategoryTbl>>();
+            APIResponse<List<CategoryTbl>> response = new APIResponse<List<CategoryTbl>>();
             try
             {
-                IQueryable<CategoryTbl> categoryList = _unitOfWork.Category.Where(x => true);
-
+                List<CategoryTbl> categoryList =await  _unitOfWork.Category.Where(x => true).ToListAsync();
+                categoryList.ForEach(category => category.CategoryImage = GetImagebyCategory(category.CategoryImage));
                 response.IsSuccess = true;
                 response.StatusCode = HttpStatusCode.OK;
                 response.Result = categoryList;
@@ -41,7 +42,7 @@ namespace accurate_services.services
             APIResponse<string> response = new APIResponse<string>();
             try
             {
-                bool categoryExits =await _unitOfWork.Category.AnyAsync(x=>x.CategoryName.ToLower().Equals(category.Name.ToLower()));
+                bool categoryExits = await _unitOfWork.Category.AnyAsync(x => x.CategoryName.ToLower().Equals(category.Name.ToLower()));
                 if (categoryExits)
                 {
                     response.IsSuccess = false;
@@ -50,17 +51,17 @@ namespace accurate_services.services
                     response.ErrorMessages = new List<string> { "Category Name Already Exists." };
                 }
                 Tuple<bool, string> fileUpload = HelperStatic.UploadFile(category.Image);
-                if(!fileUpload.Item1)
+                if (!fileUpload.Item1)
                 {
                     response.IsSuccess = false;
                     response.StatusCode = HttpStatusCode.BadRequest;
                     response.Result = null;
                     response.ErrorMessages = new List<string> { "Image Uploading problem." };
                 }
-                CategoryTbl newCategory=new CategoryTbl
+                CategoryTbl newCategory = new CategoryTbl
                 {
                     CategoryName = category.Name,
-                    CategoryImage=fileUpload.Item2,
+                    CategoryImage = fileUpload.Item2,
                 };
                 await _unitOfWork.Category.AddAsync(newCategory);
                 await _unitOfWork.SaveChangesAsync();
@@ -80,7 +81,7 @@ namespace accurate_services.services
             return response;
         }
 
-        public async Task<APIResponse<string>> EditCategoryAsync(long categoryId,EditCategoryDTOs category)
+        public async Task<APIResponse<string>> EditCategoryAsync(long categoryId, EditCategoryDTOs category)
         {
             APIResponse<string> response = new APIResponse<string>();
             try
@@ -101,8 +102,8 @@ namespace accurate_services.services
                     response.Result = null;
                     response.ErrorMessages = new List<string> { "Category Name Already Exists." };
                 }
-                CategoryTbl? oldCategory = await _unitOfWork.Category.GetFirstOrDefault(x=>x.CategoryId.Equals(categoryId));
-                oldCategory.CategoryName=category.Name;
+                CategoryTbl? oldCategory = await _unitOfWork.Category.GetFirstOrDefault(x => x.CategoryId.Equals(categoryId));
+                oldCategory.CategoryName = category.Name;
                 if (category?.Image != null)
                 {
                     Tuple<bool, string> fileUpload = HelperStatic.UploadFile(category?.Image);
@@ -146,10 +147,10 @@ namespace accurate_services.services
                     response.Result = null;
                     response.ErrorMessages = new List<string> { "Category Not Exists." };
                 }
-                
+
                 CategoryTbl? oldCategory = await _unitOfWork.Category.GetFirstOrDefault(x => x.CategoryId.Equals(categoryId));
-                
-                
+
+
                 _unitOfWork.Category.Delete(oldCategory);
                 await _unitOfWork.SaveChangesAsync();
                 response.IsSuccess = true;
@@ -167,5 +168,23 @@ namespace accurate_services.services
 
             return response;
         }
+
+        #region helpers
+        public string GetImagebyCategory(string category)
+        {
+            string ImageUrl = string.Empty;
+            string HostUrl = "https://localhost:44388/";
+            string Filepath = HostUrl + "/uploads/category/" + category;
+            if (!System.IO.File.Exists(Filepath))
+            {
+                ImageUrl = HostUrl + "/uploads/default/category/" + "";
+            }
+            else
+            {
+                ImageUrl = HostUrl + "/uploads/category/" + category;
+            }
+            return ImageUrl;
+        }
+        #endregion
     }
 }

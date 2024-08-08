@@ -21,11 +21,11 @@ namespace accurate_backend.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        [ProducesResponseType(typeof(APIResponse<IEnumerable<CategoryTbl>>), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(APIResponse<IEnumerable<CategoryTbl>>), StatusCodes.Status500InternalServerError)]
-        public APIResponse<IEnumerable<CategoryTbl>> GetCategories()
+        [ProducesResponseType(typeof(APIResponse<List<CategoryTbl>>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(APIResponse<List<CategoryTbl>>), StatusCodes.Status500InternalServerError)]
+        public async Task<APIResponse<List<CategoryTbl>>> GetCategories()
         {
-            return _categoryService.FetchAllCategories();
+            return await _categoryService.FetchAllCategories();
         }
 
         /// <summary>

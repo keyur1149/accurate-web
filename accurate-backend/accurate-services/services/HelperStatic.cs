@@ -23,8 +23,12 @@ namespace accurate_services.services
 
             try
             {
-                string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "uploads");
-
+                string rootFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+                if (!Directory.Exists(rootFolder))
+                {
+                    Directory.CreateDirectory(rootFolder);
+                }
+                string uploadsFolder = Path.Combine(rootFolder, "CategoryImage");
                 // Ensure the uploads directory exists
                 if (!Directory.Exists(uploadsFolder))
                 {
