@@ -1,4 +1,5 @@
 export interface category{
     id:number;
-    name:string;
+    categoryName:string;
+    categoryImage:string;
 }

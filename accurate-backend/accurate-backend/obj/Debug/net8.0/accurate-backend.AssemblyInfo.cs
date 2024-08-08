@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("accurate-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+029dac8b8f5d96603002fa79d23874abc63330b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef3119ffe67115ceb17a71cccba5cf6962e8c9fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("accurate-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("accurate-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
